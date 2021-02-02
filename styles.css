@@ -76,7 +76,7 @@ display: none;
 
 /*Mission container*/
 .mission-container {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(./resources/Skinning.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url("./resources/skinning.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
