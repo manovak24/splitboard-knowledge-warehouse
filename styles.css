@@ -13,7 +13,7 @@ body {
 
 /* Add a background color to the top navigation */
 .topnav {
-  background-color:rgba(226, 255, 224, 0.651);
+  background-color:rgba(100, 100, 100, 0.726);
   display: block;
   overflow: hidden;
   width: 100%;
@@ -195,6 +195,18 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 500px) {
+  .beta-container {
+    height: auto;
+  }
+  .beta-boxes {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+  }
+  
+}
+
 /*Contact section*/
 
 /* Style inputs with type="text", select elements and textareas */
@@ -235,8 +247,16 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
 /*Footer section*/
 footer {
   float: left;
   padding-left: 15px;
+  background-color: rgba(100, 100, 100, 0.726);
+  width: 100%;
 }
