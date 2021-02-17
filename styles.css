@@ -167,6 +167,7 @@ body {
   background-position: center;
   background-size: cover;
   color: white;
+  margin-bottom: 50px;
 }
 
 .beta-boxes {
@@ -212,7 +213,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc; 
   border-radius: 4px; 
   box-sizing: border-box; 
-  margin-top: 6px; 
+  margin-top: 6px;
   margin-bottom: 16px; 
   resize: vertical;
 }
@@ -230,8 +231,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
-  margin-top: 20px;
+.contact-container {
   border-radius: 5px;
   padding: 20px;
   text-align: left;
@@ -241,7 +241,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .container {
+  .contact-container {
     width: 100%;
   }
 }
