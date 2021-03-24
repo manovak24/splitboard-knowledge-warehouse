@@ -54,6 +54,7 @@ Please follow link to website - https://manovak24.github.io/splitboard_knowledge
 List of features ready and TODOs for future development
 * Flex box responsive design
 * Contact form
+* Tour beta section
 
 To-do list:
 * Adding more gear reviews
