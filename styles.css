@@ -67,7 +67,7 @@ body {
 
 /*Mission container*/
 .mission-container {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url("./resources/skinning.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ), url("./resources/skinning.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -95,12 +95,9 @@ body {
   font-size: 50px;
 }
 
-.text-over h2 {
+.mission-text {
   font-size: 30px;
-}
-
-.text-over h4 {
-  font-size: 20px;
+  font-weight: 800;
 }
 
 /*Gear Review section*/
@@ -111,37 +108,38 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-bottom: 75px;
 }
 
 .review img {
   height: auto;
-  width: 150px;
+  width: 187.5px;
   padding: 10px;
   border-radius: 25px;
 }
 
 .review {
-  height: 18.75rem;
+  height: 20rem;
   min-width: 210px;
   margin: 20px auto 20px auto;
   
   border-radius: 25px;
   flex-basis: 30%;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .review {
-    padding-bottom: 20rem;
-  }
-}
+
 
 /*About section*/
 .about-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 24px;
+  margin-bottom: 75px;
 }
 
 .crew-section {
@@ -172,6 +170,7 @@ body {
   background-size: cover;
   color: white;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 .beta-boxes {
@@ -186,7 +185,7 @@ body {
   padding: 20px;
   margin-bottom: auto;
   flex-basis: 30%;
-  background-color: rgba(0, 0, 0, 0.562);
+  background-color: rgba(0, 0, 0, 0.700);
   font-size: 1.1rem;
 }
 
@@ -211,6 +210,15 @@ body {
 }
 
 /*Contact section*/
+#contact {
+  font-weight: 700;
+}
+
+#contact p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;  
